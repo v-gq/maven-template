@@ -22,31 +22,39 @@
   </properties>
 
   <dependencies>
+
 	<!-- ======================= SpringWeb ======================= -->
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
 	</dependency>
+
 	<!-- ======================= Spring boot DevTools ======================= -->
 	<dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-devtools</artifactId>
         <optional>true</optional>
     </dependency>
+
 	<!-- ======================= Spring boot test ======================= -->
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-test</artifactId>
 		<scope>test</scope>
 	</dependency>
+
   </dependencies>
 
   <build>
+
 	  <plugins>
+
 		<plugin>                                             
 		  <groupId>org.springframework.boot</groupId>      
 		  <artifactId>spring-boot-maven-plugin</artifactId>
 		</plugin>
+
 	  </plugins>
+
   </build>
 </project>
