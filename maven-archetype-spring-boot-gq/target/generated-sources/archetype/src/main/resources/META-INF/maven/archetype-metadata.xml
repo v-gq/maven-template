@@ -21,6 +21,12 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
+    <fileSet packaged="true" encoding="UTF-8">
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.swp</include>
+      </includes>
+    </fileSet>
     <fileSet encoding="UTF-8">
       <directory>src/test/resources</directory>
       <includes>
@@ -38,6 +44,12 @@
       <includes>
         <include>.project</include>
         <include>.classpath</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>.pom.xml.swp</include>
       </includes>
     </fileSet>
   </fileSets>
