@@ -4,6 +4,7 @@ maven archetpye template <br>
 安装
 =======
 git到本地后进入文件夹 <br>
+$ `mvn clean`<br>
 $ `mvn archetype:create-from-project`  <br>
 $ `cd target/generated-sources/archetype/`  <br>
 $ `mvn install` <br>
